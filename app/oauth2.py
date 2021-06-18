@@ -1,4 +1,4 @@
-from blog.database import get_db
+from app.database import get_db
 from sqlalchemy.orm.session import Session
 from fastapi import Depends,HTTPException,status
 from fastapi.security import OAuth2PasswordBearer 

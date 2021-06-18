@@ -1,4 +1,4 @@
-from blog.oauth2 import get_current_user
+from app.oauth2 import get_current_user
 from fastapi import status,HTTPException
 from sqlalchemy.orm.session import Session
 from .. import models,schema,oauth2
